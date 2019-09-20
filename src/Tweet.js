@@ -6,7 +6,7 @@ function Tweet(props){
         <div className = "tweet">
             <h3>{props.name}</h3>
             <p>{props.message}</p>
-            <h3>Number of Likes</h3>
+            <h3>{props.likes}</h3>
         </div>
 
 
